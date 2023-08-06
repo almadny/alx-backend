@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ A Simple Flask Route """
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask_babel import Babel
 
 class Config(object):
